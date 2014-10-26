@@ -12,6 +12,3 @@ all:
 
 clean:
 	rm -r $(outputDir)/
-
-cleanall: 
-	rm -r $(outputDir)/ $(targetName).pdf
