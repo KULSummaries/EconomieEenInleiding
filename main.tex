@@ -1,0 +1,108 @@
+\documentclass[10pt,a4paper]{article}
+%\usepackage[utf8x]{inputenc}
+\usepackage[dutch]{babel}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry} % Reduces the whitespace at the bottom of the page so more text can fit
+\usepackage[protrusion=true,expansion=true]{microtype}		%nicer outlining (less splitted words)
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{hyperref} %use in-document links
+\usepackage{sectsty}	%custom section headers
+
+\setlength{\oddsidemargin}{0mm}					% Adjusting margins to center the colorbox, ...
+\setlength{\evensidemargin}{0mm}					% ... you might want to change these
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fix-cm}
+\usepackage{scrtime}
+\usepackage[colorinlistoftodos]{todonotes}
+
+
+\author{Pieter-Jan Smets}
+\title{Samenvatting Markten & Prijzen}
+\date{\today}
+
+% ------------------------------------------------------------------------------
+% Definitions (do not change this)
+% ------------------------------------------------------------------------------
+\newcommand{\HRule}[1]{\hfill \rule{0.2\linewidth}{#1}} 	% Horizontal rule
+
+\definecolor{grey}{rgb}{0.9,0.9,0.9} 
+
+\makeatletter							% Title
+\def\printtitle{%						
+    {\centering \@title\par}}
+\makeatother									
+
+\makeatletter							% Author
+\def\printauthor{%					
+    {\centering \large \@author}}				
+\makeatother							
+
+% ------------------------------------------------------------------------------
+% Metadata (Change this)
+% ------------------------------------------------------------------------------
+\title{	\fontsize{50}{60}\selectfont
+			\vspace*{0.7cm}
+			\hfill Samenvatting 		\\[0.8cm]
+			\hfill Markten \&	Prijzen\\[0.8cm]%
+		}
+
+\author{
+		\hfill Pieter-Jan Smets\\
+		\hfill \today \\
+}
+
+
+% ------------------------------------------------------------------------------
+% Custom section layout
+% ------------------------------------------------------------------------------
+\sectionfont{
+	\sectionrule{0pt}{0pt}{-5pt}{0.8pt} }
+
+
+
+% ------------------------------------------------------------------------------
+% ------------------------------------------------------------------------------
+% Document start
+% ------------------------------------------------------------------------------
+% ------------------------------------------------------------------------------
+\begin{document}
+% ------------------------------------------------------------------------------
+% Maketitle
+% ------------------------------------------------------------------------------
+\thispagestyle{empty}				% Remove page numbering on this page
+
+\colorbox{grey}{
+	\parbox[t]{1.0\linewidth}{
+		\printtitle 
+		\vspace*{0.7cm}
+	}
+}
+
+  	\vfill
+\printauthor								% Print the author data as defined above
+\HRule{1pt}
+\clearpage
+
+% ------------------------------------------------------------------------------
+% Tabe of Contents
+% ------------------------------------------------------------------------------
+
+\tableofcontents
+\newpage
+
+% ------------------------------------------------------------------------------
+% Contents
+% ------------------------------------------------------------------------------
+
+\input{Parts/00Voorwoord.tex}
+\input{Parts/01WaaroverEnHoeDenkenEconomen.tex}
+\input{Parts/02MensenInstitutiesEnMarkten.tex}
+\input{Parts/03VraagEnAanbod.tex}
+\input{Parts/04ElasticiteitenEnSchokken.tex}
+\input{Parts/05DeConsument.tex}
+\input{Parts/06DeOndernemingAlsOrganisatie}
+\input{Parts/07ProductieEnKosten.tex}
+
+
+\end{document}
