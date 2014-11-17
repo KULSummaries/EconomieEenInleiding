@@ -2,7 +2,7 @@ outputDir = outDir
 targetName = Summary
 inputfile = main.tex
 
-all: 
+all:
 	mkdir -p $(outputDir)
 	pdflatex -jobname $(targetName) -output-directory $(outputDir) $(inputfile)
 	pdflatex -jobname $(targetName) -output-directory $(outputDir) $(inputfile)

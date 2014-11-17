@@ -16,7 +16,7 @@ We concentreren on op 2 productiefactoren: kapitaal ($K$) en arbeid ($L$) waarbi
 
 Productieniveaus kunnen we voorstellen m.b.v. isokwanten die dezelfde $q$ voor verschillende combinaties van $K$ en $L$ weergeven, of grafiek met 1 constante productiefactor zodat q wel afleesbaar is. $q^{KT}$ kan zo afgebeeld worden aangezien $K$ daar constant is.
 
-\subsubsection{Productiviteit van productiefactoren} 
+\subsubsection{Productiviteit van productiefactoren}
 We introduceren de \textbf{gemiddelde fysische productiviteit} ($GFP$) en de \textbf{marginale fysische productiviteit} ($MFP$), waarbij $GFP_L = \frac{q}{L}$; $GFP_k = \frac{q}{k}$; $MFP_L = \frac{\Delta q}{\Delta L}$ en  $MFP_K = \frac{\Delta q}{\Delta K}$. Het concept van \textbf{variabele meeropbrengsten} zegt dat als \'e\'en productiefactor stijgt en alle andere productiefactoren constant blijven, dat zowel $MFP$ als $GFP$ voor die productiefactor aanvankelijk zullen stijgen tot een maximum en nadien terug zullen dalen.
 \begin{figure}[htbp]
 	\centering
@@ -110,4 +110,94 @@ Maar op $KT$ ligt $K$ vast en we bekomen volgende vergelijking:
 
 Merk op dat FK niet in functie staat van $q$ aangezien het vaste kosten zijn, ze kunnen wel vari\"eren in de tijd.
 
+\todo[inline]{Slide 22 en 23}
+
+De relatie tussen $TK$, $GK$ en $FK$ kan je zien in figuur~\ref{fig:relatieTKGKFK}.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Relatie tussen TK, GK en FK (slide 25)}
+	\label{fig:relatieTKGKFK}
+\end{figure}
+
+Mathematisch ziet deze relatie er als volgt uit:
+\begin{equation}
+	GK_{KT} = \frac{TK_{KT}(q)}{q} \\
+		= \frac{VK_{KT}(q) + FK_{KT}}{q} \\
+		= \frac{VK_{KT}(q)}{q} + \frac{FK_{KT}}{q} \\
+		= GVK_{KT} + GFK_{KT}
+\end{equation}
+
+Merk ook op dat het volgende zich voordoet voor $MK_{KT}$:
+\begin{equation}
+	MK_{KT}(q) = \frac{\Delta TK_{KT}(q)}{\Delta q}\\
+		=\frac{\Delta VK_{KT}(q) + \Delta FK_{KT}}{\Delta q}\\
+		=MVK_{KT}(q)
+\end{equation}
+
+Je ziet dat $MK$ volledig bepaald worden door $VK$ aangezien de marginale vaste kosten gelijk zijn aan 0. Hoe $GK$, $GVK$ en $MK$ er uit zien
+kan je zien in figuur~\ref{fig:GKGVKMK}.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{GK, GVK en FMK (slide 29)}
+	\label{fig:GKGVKMK}
+\end{figure}
+
+
 \subsection{Kosten op Lange Termijn}
+Waar op $KT$ niet alle productiefactoren variabel waren is dat nu wel het geval. Bijgevolg geldt nu gewoon dat:
+\begin{equation}
+	TK = wL + rK
+\end{equation}
+De producent kan dus alle productiefactoren aanpassen. Hij zal dus $L$ en $K$ zo willen kiezen dat hij voor een bepaalde $q$ zo weinig
+mogelijk hoeft de bepalen (kostenminimalisatie). Bijgevolg zullen we een situatie krijgen die analoog is aan die van het consumentengedrag, waarbij:
+\begin{itemize}
+	\item budgetrechte = kostenrechte
+	\item indifferentiecurve = productieniveau's
+\end{itemize}
+Een voorbeeld van hoe $L$ en $K$ gekozen worden kan je zien in figuur~\ref{fig:prodNiveauLT}. Merk op dat in het optimum $MTSV = -\frac{w}{r}$.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Bepalen L en K op LT (slide 33)}
+	\label{fig:prodNiveauLT}
+\end{figure}
+
+Stel nu dat $|MTSV| > \frac{w}{r}$, neem bvb $5 > 3$, en dat $1L = 3K$. In dit geval zal de onderneming meer arbeid inzetten want 1 extra eenheid $L\Rightarrow$ 5 minder $K\Rightarrow$ kosten dalen.
+
+We kunnen de voorwaarde dat $MTSV = -\frac{w}{r}$ ook herschrijven:
+\begin{equation}
+	MTSV = -\frac{w}{r} \Rightarrow \frac{MFP_L}{MFP_K} = \frac{w}{r} \Rightarrow \frac{MFP_L}{w} = \frac{MFP_K}{r}
+\end{equation}
+
+Stap 1 kunnen we uitvoeren aangezien $MTSV = -\frac{MFP_L}{MFP_K}$. Uit stap 1 en 2 kunnen we aantal conclusies trekken.
+\begin{description}
+	\item[Stap 2]: verhouding $MFP$'s = verhouding lonen/interest
+	\item[Stap 3]: stel 1 euro extra spenderen aan arbeid: $\frac{1}{w}$ is hoeveel extra arbeid je krijgt en $MFP_L \times \frac{1}{w}$ is de extra productie die deze extra uitgave aan arbeid oplevert. $\Rightarrow$ beide leden moeten aan elkaar gelijk zijn, anders zal er geld voor de ene productiefactor overgepompt worden naar de andere omdat er daar meer productiviteit mee te winnen is. Want stel dat $\frac{MFP_L}{w} > \frac{MFP_K}{r} \Rightarrow$ meer geld in $L$ steken want die productiefactor levert meer productiviteit op.
+\end{description}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Verandering factorprijzen (slide 35)}
+	\label{fig:veranderingFactorprijzen}
+\end{figure}
+Figuur~\ref{fig:veranderingFactorprijzen} geeft weer wat er gebeurt als een factorprijs veranderd, namelijk als $w$ stijgt. De isokostencurve zal dan wentelen en met dezelfde $TK$ kan je niet meer het oorspronkelijke productieniveau bereiken. Bij een toename van de $TK$ zal het oud optimum ook geen optimum meer zijn op die isoproductierechte. Dit voorbeeld geeft ook het substitutie-effect weer: een prod. factor wordt duurder en er zal minder van gebruikt worden.
+
+Net zoals bij kosten op $KT$ willen we ook nu de relatie tussen $TK_{LT}$ en $q$. Dit bekomen we door het expantiepad te tekenen door de optima op verschillende isoproductiecurve met evenwijdige isokostenrechten. Een voorbeeld hiervan zie je in figuur~\ref{fig:expansiepad}.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Relatie q en TK (slide 36)}
+	\label{fig:expansiepad}
+\end{figure}
+
+Als we deze punten uitzetten bekomen we de curve voor $TK$, hieruit kunnen we ook $MK$ en $GK$ afleiden, zoals in figuur~\ref{fig:LTTKGKMK}. In het stuk waar $GK$ daalt spreken we over stijgende schaalopbrengsten, waar ze stijgt over dalende schaalopbrengsten. Normaal gezien krijgen we dus een convexe $GK$. 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{TK, GK en MK op LT (slide 39)}
+	\label{fig:LTTKGKMK}
+\end{figure}
