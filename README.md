@@ -22,9 +22,12 @@ Indien make op je systeem geïnstalleerd is, kan je gewoon volgend commando inty
 ```bash
 make
 ```
+
 Er zal nu een nieuwe map verschijnen genaamd "outDir" waarin het bestand "Summary.pdf" verschijnt. Dit bestand is de samenvatting.
 
 Indien je make niet hebt, kan je texlive rechtstreeks aanroepen. Volgend commando zal dan je samenvatting creëren:
 ``` bash
 pdflatex -jobname Summary.pdf main.tex
 ```
+
+Dit commando zal je tweemaal moeten uitvoeren om alle referenties binnen het document juist te krijgen.
