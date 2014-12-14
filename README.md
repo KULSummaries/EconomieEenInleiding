@@ -23,7 +23,7 @@ Indien make op je systeem geïnstalleerd is, kan je gewoon volgend commando inty
 make
 ```
 
-Er zal nu een nieuwe map verschijnen genaamd "outDir" waarin het bestand "Summary.pdf" verschijnt. Dit bestand is de samenvatting.
+Er zal nu een nieuwe map verschijnen genaamd "helpFiles". De samenvatting zelf verschijnen als "Summary.pdf" in de root folder van het project.
 
 Indien je make niet hebt, kan je texlive rechtstreeks aanroepen. Volgend commando zal dan je samenvatting creëren:
 ``` bash
