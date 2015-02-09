@@ -1,6 +1,6 @@
-# Samenvatting Markten & Prijzen
+# Samenvatting Economie: Een Inleiding
 
-Samenvatting voor het vak Markten en Prijzen aan de KUL.
+Samenvatting voor de vakken "Markten & Prijzen" en "De Globale Economie" aan de KUL.
 
 ## De Samenvatting Verkrijgen
 Het eenvoudigste is waarschijnlijk een kopie krijgen van iemand die de samenvatting reeds heeft. Als je echter de laaste versie wilt hebben kan je echter ook het volgende doen.
@@ -14,8 +14,8 @@ Gebruikers van Linux en OSX kunnen dan gewoon naar hun terminal gaan en volgende
 
 ``` bash
 cd /your/preferred/directory
-git clone https://github.com/HerrSubset/SamenvattingMarktenEnPrijzen
-cd SamenvattingMarktenEnPrijzen
+git clone https://github.com/KULSummaries/EconomieEenInleiding
+cd EconomieEenInleiding
 ```
 
 Indien make op je systeem geïnstalleerd is, kan je gewoon volgend commando intypen:
