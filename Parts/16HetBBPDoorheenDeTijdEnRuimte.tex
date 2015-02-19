@@ -1,1 +1,74 @@
 \section{Het BBP Doorheen de Tijd en Ruimte}
+
+\subsection{Nominaal en Re\"eel BBP}
+Tot nu toe hebben we gezien hoe het BBP gemeten kan worden. We willen dit echter ook vergelijken overheen de tijd en tussen verschillende landen/geografische gebieden.
+
+Om over de tijd te gaan vergelijken is veranderende prijsniveau een probleem $\Rightarrow$ \textit{nominaal} BBP ($Y_t$) vs \textit{re\"eel} BBP ($Q_t$) (zie tabel 16.1 voor een vb). We vinden dat:
+\begin{align}
+    Y_t &= \sum_i p_i^t q_i^t \\
+    Q_t &= \sum_i p_i^0 q_i^t
+\end{align}
+Of ook dat:
+\begin{equation}
+    Y_t = P_t Q_t
+\end{equation}
+waarbij $P_t$ de prijsdeflator is. Deze kan dan ook uitgedrukt worden als volgt:
+\begin{equation}
+    P_t = \frac{Y_t}{Q_t} = \frac{\sum_i p_i^t q_i^t}{\sum_i p_i^0 q_i^t} \label{eq:paasche}
+\end{equation}
+
+Er zijn echter een aantal punten van kritiek op het BBP als vergelijkingsmethode voor de welvaart over de tijd:
+\begin{itemize}
+    \item nieuwe producten die op de markt komen, vb geen oude prijs van nieuwe goederen om re\"eel BBP te berekenen
+    \item prijzen geven soort van ``weging'' v/d beschikbare producten die verloren gaat bij constante prijzen.
+    \item verandering van de kwaliteit die de prijzen doet veranderen wordt genegeerd.
+\end{itemize}
+
+Vandaar dat men vaak het re\"eel BBP aan de hand van kettingprijzen gaat defini\"eren:
+\begin{equation}
+    Q_t = \sum_i p_i^{t-1} q_i^t
+\end{equation}
+
+\subsection{Prijsdeflatoren}
+=de link tussen nominaal en re\"eel BBP. De BBP deflator is een prijsindex, bijvoorbeeld de \textit{Paasche index} in vergelijking~\eqref{eq:paasche}. Daarbij worden de hoeveelheden in jaar $t$ vastgeprikt en wordt de evolutie van de prijzen ten opzichte van jaar $0$ berekend.
+
+Deze Paasche index is echter niet eenvoudig te berekenen. Een ander, gemakkelijker voorbeeld is de \textit{Consumer Price Index} (CPI). Hierbij is er een op voorhand gedefini\"eerde \textit{korf van goederen} waarvoor men dan de prijsverschillen gaat meten. Om een realistisch beeld te behouden moet deze korf wel regelmatig aangepast worden aan wat de consumenten echt kopen.
+
+Kritiek op deze CPI is dat prijsstijgingen tot substitutie zouden leiden, maar de korf wordt niet aangepast. Bijgevolg zou dit leiden tot een systematische overschatting van de inflatie. Ook worden de prijsstijgingen omwille van kwaliteitsverbetering meegenomen. Tot slot is er nog de politieke be\"invloeding (vb. van de gezondheidsindex).
+
+De CPI is een voorbeeld van een \textit{Laspeyres index}. Deze verschilt van de Paasche index doordat men $q^0$ zal fixeren en niet $q^t$, zoals bij Paasche het geval is. Een Laspeyres index ziet er dus als volgt uit:
+\begin{equation}
+    P_t^{\text{Lasp}} = \frac{\sum_i p_i^t q_i^0}{\sum_i p_i^0 q_i^0}
+\end{equation}
+
+\subsection{Groei van het BBP Defini\"eren en Analyseren}
+Groei kan je op een aantal verschillende manieren meten en uitdrukken:
+\begin{itemize}
+    \item absolute toename: hoeveel extra dingen hebben we geproduceerd? ($\Delta Q_t = Q_t - Q_{t-1}$)
+    \item jaarlijkse toename in procenten: $g_t = \frac{\Delta Q_t}{Q_{t-1}} \times 100$
+    \item op basis van een indexcijfer met een bepaald basisjaar: $\frac{Q_t}{Q_{t-1}} \times 100$
+\end{itemize}
+
+Aangezien het BBP groeit via een groeivoet is dit een niet-lineair proces. We introduceren een denkbeeldige, gemiddelde groeivoet die elk jaar hetzelfde is zodat:
+\begin{equation}
+    Q_t = Q_0(1 + g)^t
+\end{equation}
+Deze jaarlijkse gemiddelde groeivoet ($g$) kan berekend worden als:
+\begin{equation}
+    g = \left(\frac{Q_t}{Q_0} \right)^{\frac{1}{t}} - 1
+\end{equation}
+
+Aangezien het groeiproces niet lineair is, zijn logaritmes zeer handig om verdubbelingstijden of ``catching-up'' tijden te berekenen (zie voorbeeld slides).
+
+Tot slot bespreken we nog de \textbf{outputkloof}. Hiervoor maken we het onderscheid tussen \textit{feitelijk} en \textit{potenti\"eel} BBP. Het potenti\"eel BBP is waar het BBP zou zijn indien het steeds volgens het langetermijngemiddelde had gegroeid. Men kan het potenti\"eel BBP dus schatten via een trendgroei van het BBP, maar ook op een andere manier. We kennen namelijk de productiviteit, corruptie, machinecapaciteit, etc. dus we kunnen via de productiemogelijkhedencurve een goede inschatting maken van wat ons land kan produceren.
+
+Via het begrip van feitelijk en potenti\"eel BBP kunnen we hoog- en laagconjunctuur defini\"eren:
+\begin{itemize}
+    \item feitelijk BBP $>$ potenti\"eel BBP $\Rightarrow$ hoogconjunctuur
+    \item feitelijk BBP $<$ potenti\"eel BBP $\Rightarrow$ laagconjunctuur
+\end{itemize}
+
+\subsection{BBP Vergelijken Tussen Regio's: Koopkrachtpariteit}
+Re\"eel BBP laat ons toe het BBP over de tijd heen te vergelijken, maar hoe moeten we dit tussen regio's doen? In de eerste plaats doen we dit door via wisselkoersen alles om te zetten naar een gemeenschappelijke munt. In eerste instantie gaan we er van uit dat de \textit{Law of One Price} geldt, maar in de realiteit zien we dat dit echter niet altijd zal opgaan.
+
+$\Rightarrow$ We hebben een sort theoretische wisselkoers nodig die het GDP voor de verschillen in koopkracht corrigeert $\Rightarrow$ Purchasing Power Parity (PPP).
