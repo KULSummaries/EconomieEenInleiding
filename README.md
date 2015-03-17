@@ -3,7 +3,7 @@
 Samenvatting voor de vakken "Markten & Prijzen" en "De Globale Economie" aan de KUL.
 
 ## De Samenvatting Verkrijgen
-Je kan de samenvatting eenvoudig [hier downloaden](https://www.sharelatex.com/github/repos/KULSummaries/EconomieEenInleiding/builds/83f2933d8c33cea7dcea1184e2e9d2dc9c34b7e5/raw/output.pdf).
+Je kan de samenvatting eenvoudig [hier downloaden](https://www.sharelatex.com/github/repos/KULSummaries/EconomieEenInleiding). Men zal meteen vragen of je de logfile wilt downloaden, maar deze heb je niet nodig.
 
 Om zelf de samenvatting te "bouwen" zul je de volgende dingen nodig hebben:
 * [git](http://www.git-scm.com/)
