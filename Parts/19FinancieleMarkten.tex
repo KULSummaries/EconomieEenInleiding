@@ -1,0 +1,44 @@
+\section{Financi\"ele Markten}
+\label{sec:Financiele Markten}
+De vermogensvraag naar geld gaat over geld aanhouden in afwachting van beleggingsopportuniteiten, zodat het voor langere periode kan worden vastgezet. Hierbij komt dan de vraag wat de waarde van een obligatie of aandeel is.
+
+
+\subsection{De Slotwaarde en Actuele waarde}
+\label{sub:De Slot- of Eindwaard}
+De slotwaarde is de hoofdsom die gedurende bepaalde periode wordt belegd tegen bepaalde interestvoet. Dus $S = \text{ hoofdsom } + \text{ interest op hoofdsom }$. In het algemeen kan je stellen dat:
+\begin{equation}
+  S_n = A \times (1 + i)^n
+\end{equation}
+
+We kunnen deze formule omvormen om zo de actuele waarde van een investering te berekenen. De actuele waarde is dan:
+\begin{equation}
+  A = \frac{S_n}{(1 + i)^n}
+\end{equation}
+Het berekenen van de actuele waarde van een in de toekomst te verwerven bedrag = \textit{verdisconteren}.
+
+
+\subsection{De Obligatiemarkt}
+\label{sub:De Obligatiemarkt}
+Obligaties zijn schuldcertificaten die recht geven op jaarlijkse interest en terugbetaling van de hoofdsom op het einde van de looptijd. Er zijn verschillende soorten obligaties, bvb Staatsbons en OLO's. Deze worden uitgegeven op de primaire markt en daarna verhandeld op de secundaire markt.
+
+Een obligatie heeft een nominale waarde (de hoofdsom) en een coupon, die een jaarlijkse interest geeft.
+
+De prijs van een obligatie wordt bepaald via \textit{arbitrage}. De arbitrageconditie stelt dat:
+\begin{equation}
+  i \times P = i_B \times B
+\end{equation}
+
+Op deze manier kan je de huidige prijs berekenen, ook over verschillende jaren heen:
+\begin{equation}
+  P = \frac{i_b \times B}{(1 + i)^1} + \dots + \frac{i_b \times B}{(1 + i)^n}
+\end{equation}
+
+Bij een \textit{perpetu\"iteit} wordt de hoofdsom nooit uitbetaald en wordt op een oneindig aantal perioden interest betaald. Bijgevolg geldt: $P = \frac{C}{i}$, met $C = i_B \times B$
+
+
+\subsection{De Aandelenmarkt}
+\label{sub:De Aandelenmarkt}
+De aandelenmarkt werkt gelijkaardig. Hier spelen echter de verwachte dividenten ($D_t^e$) en de risicofactor ($\rho$) een rol. De prijs is dan:
+\begin{equation}
+  P = \frac{D_1^e}{(1 + i + \rho)^1} +  \frac{D_2^e}{(1 + i + \rho)^2} + \dots
+\end{equation}
