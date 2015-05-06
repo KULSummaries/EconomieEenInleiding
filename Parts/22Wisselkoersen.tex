@@ -1,0 +1,84 @@
+\section{Wisselkoersen}
+De wisselkoers is de prijs van een munt, uitgedrukt in een andere munt. Er zijn een aantal factoren die wisselkoersen be\"invloeden. Het gemakkelijkste is om te kijken naar vraag en aanbod (zie figuur~\ref{fig:prijsVormingMunt}): import, export en investeringen in en uit het buitenland. Deze zaken lopen allemaal via de banken, ze zijn dus een intermediair. Volgens dit standpunt wordt de prijs van een munt eenvoudig bepaald door de vraag naar en het aanbod van die munt.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Prijsvorming van een munt (fig 24.1 boek)}
+	\label{fig:prijsVormingMunt}
+\end{figure}
+
+\subsection{Vaste versus Vlottende Wisselkoersen}
+Bij een vaste wisselkoers kiest een overheid ervoor om de wisselkoers van de eigen munt ten opzichte van een andere munt te stabiliseren. Dit doen ze door grenzen te zetten op hoe ver de wisselkoers mag schommelen. Wanneer deze grenzen dreigen overschreden te worden, zal de centrale bank ingrijpen door het aanbod en/of de vraag van beide munten op de markt te be\"invloeden. Op deze manier kan een wisselkoers gestabiliseerd worden. Een voorbeeld zie je in figuur~\ref{fig:vasteWK}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Vaste wisselkoers (fig 24.1 boek)}
+	\label{fig:vasteWK}
+\end{figure}
+
+
+\subsection{Koopkractpariteit}
+Een tweede manier om wisselkoersfluctuaties te verklaren, is de theorie van koopkrachtpariteit. Deze berust op ``the law of one price''(zie vb slide 22). De wisselkoers zal zich dus zo zetten dat het algemeen prijsniveau in beide landen hetzelfde is. Wiskundig gezien is dit:
+\begin{equation}
+  WK^* = \frac{P_{EU}}{P_{US}}
+\end{equation}
+
+We merken dan ook op dat procentuele veranderingen in de wisselkoers, gelijk moet zijn aan het verschil van de procentuele veranderingen in de prijs (=inflatie).
+
+\begin{align*}
+  \frac{\Delta WK^*}{WK^*} &= \frac{\Delta P_{EU}}{P_{EU}}-\frac{\Delta P_{US}}{P_{US}}\\
+  &= \pi_{EU} - \pi_{US}
+\end{align*}
+
+Er zijn echter wat bemerkingen die deze theorie ondermijnen: zo zijn er transportkosten, importbelemmeringen en beperkingen op verhandelbaarheid.
+
+(check slides voor theorie Re\"ele WK)
+
+\subsection{Interestpariteit}
+Interestpariteit is een derde theorie om WK te verklaren. Deze theorie gaat er van uit dat beleggers altijd het hoogste rendement kiezen voor hetzelfde risico. Een belegging in eigen land moet dan even veel opbrengen als een belegging in het buitenland, rekening houdend met de huidige en verwachte WK:
+
+\begin{equation}
+  1 + i_{EU} = \frac{1}{WK} (1+i_{US}) \times WK^e_{+1}
+\end{equation}
+
+De arbitrageconditie zegt dan dat de rendementen voor beide investeringen gelijk zou moeten zijn. Arbitrage zorgt er dan voor dat de WK zich zo aanpast dat dit het geval zal zijn. We noemen dit ook de \textit{ongedekte interestpariteit}, door de onzekerheid die $WK^e$ vormt.
+
+Als we naar procentuele veranderingen gaan kijken, komen we uit dat:
+\begin{equation}
+  \frac{WK^e}{WK} = 1 + \frac{WK^e -WK}{WK} = 1 + \omega^e
+\end{equation}
+
+Dit wil ook zeggen dat $i_{EU} = i_{US} + \omega^e$.
+
+Als we terugdenken aan vaste WK, wil dit dus zeggen dat beide gebieden ongeveer eenzelfde interestvoet zullen moeten aanhouden.
+
+We kunnen deze theorie ook grafisch weergeven. De WK is in deze theorie een functie van de interestvoet in binnen- en buitenland en de verwachte wisselkoers. Grafisch ziet dit er uit als in figuur~\ref{fig:interestpariteit}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Interestpariteit (slide 35)}
+	\label{fig:interestpariteit}
+\end{figure}
+
+Als we deze figuur inverteren komt de interestvoet op de y-as te staan. Op deze manier kunnen we deze linken aan het IS-LM model zoals in figuur~\ref{fig:interestpariteitEnISLM}. In IS-LM konden we de $i$ bepalen in het evenwicht. Op deze manier kunnen we ook de bijhorende wisselkoers achterhalen.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Interestpariteit en IS-LM (slide 35)}
+	\label{fig:interestpariteitEnISLM}
+\end{figure}
+
+We zien ook wat het effect is op de internationale handel van een veranderende WK. Als de WK namelijk wijzigt, zal IS ook moeten verschuiven. Een ander effect zie je in figuur~\ref{fig:expansiefMonetair}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Effect expansief monetair beleid op WK en IS-LM (slide 40)}
+	\label{fig:expansiefMonetair}
+\end{figure}
+
+Een monetair beleid zal de WK aanpassen, dus indien je in een systeem van vaste WK zit, kan je dit niet aanpassen. Budgettair beleid gaat wel, maar je zal dan steeds je monetair beleid zo moeten doen dat de WK niet wijzigt.
