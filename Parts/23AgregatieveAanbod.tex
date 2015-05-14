@@ -1,0 +1,88 @@
+\section{Natuurlijke Werkloosheid en Output}
+AV gaf al het verband tussen prijzen en het BBP, we hebben ook nog AA nodig. Hiervoor moeten we dus naar de productiezijde kijken en de kostenstructuur ervan. In ons model zullen we enkel arbeid als productiefactor nemen. In dit hoofdstuk kijken we dus naar de arbeidsmarkt. Enkele termen:
+\begin{description}
+  \item[Bevolking op arbeidsleeftijd]: iedereen tussen 15 en 64 jaar die in principe zou kunnen werken
+  \item[Beroepsbevolking (N)]: loontrekkenden, zelfstandigen en werklozen (dus exclusief de niet-actieven zoals studenten, huismoeders, gepensioneerden) = tewerkstelling ($L$) + werkloosheid($U$)
+  \item[Werkloosheidsgraad]: \#werklozen ten opzichte van de beroepsbevolking ($U/N$)
+  \item[Nominaal loon]: wat je krijgt ($W$)
+  \item[Re\"eel loon]: wat je kan kopen met je loon ($W/P$)
+\end{description}
+
+In een simpel arbeidsmodel (figuur~\ref{fig:simpelArbeidsModel}) zie je dat er niemand werkloos is. De mensen zonder job willen ook niet werken omdat ze voor dat re\"eel loon hun vrije tijd niet willen opgeven. In dit model kan dus enkel werkloosheid ontstaan door overheidsinterventie (bvb. minimumlonen).
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Simpel arbeidsmodel (fig 22.3 boek)}
+	\label{fig:simpelArbeidsModel}
+\end{figure}
+
+\subsection{Loonvorming Analytisch Benaderd}
+Algemeen gezien wordt het loon als volgt gevormd:
+\begin{equation}
+  W = P^e \times F(u,z)
+\end{equation}
+Lonen hangen dus af van de verwachte prijzen ($P^e$), de werkloosheid($u$) en andere institutionele factoren ($z$) zoals werkloosheidssteun en vakbondsmacht. Deze verwachte prijzen zijn belangrijk omdat mensen hun re\"eel loon gelijk willen houden, of zien stijgen.
+
+
+\subsection{Prijsvorming bij Ondernemingen}
+We zagen al dat bij ondernemingen met \'e\'en productiefactor, $Q=AL$, met $A=1$ als er geen technologische vooruitgang is. Als dit het geval is, zal $MK = L$ (de marginale kost is gelijk aan het loon dat betaald moet worden). Bij perfecte concurrentie zal $P = MK = W$, maar bij inperfecte concurrentie zal hier nog een \textit{mark-up} bij moeten gerekend worden. We veronderstellen dus dat:
+\begin{equation}
+  P = (1 + \mu)\times W
+\end{equation}
+waarin $\mu$ de mark-up is.
+
+
+\subsection{De Natuurlijke Werkloosheidsgraad}
+We veronderstellen dat de nominale lonen afhangen van de eigenlijke prijzen, eerder dan van de verwachte prijzen ($P = P^e$). Of in andere woorden, de verwachtingen zijn correct. Dit wil zeggen dat we de looncurve als volgt kunnen herschrijven:
+\begin{align*}
+  W &= P \times F(u,z)\\
+  &\Updownarrow \\
+  \frac{W}{P} &= F(u,z)
+\end{align*}
+
+Anderzijds is er ook de prijscurve:
+\begin{align*}
+  P &= (1+\mu) \times W\\
+  &\Updownarrow \\
+  \frac{P}{W} & = 1 + \mu \\
+  &\Updownarrow \\
+  \frac{W}{P} &= \frac{1}{1 + \mu}
+\end{align*}
+
+Evenwicht ontstaat in het punt waar loonzetters en prijszetters overeenkomen met betrekking tot het re\"ele loon. In andere woorden: de looncurve = de prijscurve.
+\begin{equation}
+  F(u,z) = \frac{1}{1+\mu}
+\end{equation}
+Deze vergelijking wordt grafisch weergegeven in figuur~\ref{fig:evenwichtLoonPrijsZetters}, waar we eenvoudig kunnen zien dat dit evenwicht ook overeenkomt met een bepaalde werkloosheidsgraad. Dit noemen we de \textit{natuurlijke werkloosheidsgraad} omdat, gegeven de institutionele context, er altijd een tendens naar dit niveau zal zijn.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.4]{Images/white.png}
+	\caption{Evenwicht tussen loon- en prijszetters (slide 10)}
+	\label{fig:evenwichtLoonPrijsZetters}
+\end{figure}
+
+
+\subsection{Van Werkloosheid naar Tewerkstelling en Output}
+Er is een natuurlijke werkloosheidsgraad, dus moet er ook een natuurlijke tewerkstellingsgraad zijn:
+\begin{align*}
+  u &= \frac{U}{N} = \frac{N-L}{N} = 1-\frac{L}{N}\\
+  \\ \Leftrightarrow \frac{L}{N} & = 1-u \Leftrightarrow L = (1-u)N
+\end{align*}
+
+Bijgevolg is de natuurlijke tewerkstelling: $L_n = (1 - u_n)N$. De productiefunctie is gegeven door $Q = L$, dus bijgevolg kunnen we ook nog een natuurlijk outputniveau defini\"eren. We weten dus al dat $Q_n = L_n$. Bijgevolg geldt het volgende:
+\begin{equation*}
+  u_n = 1 - \frac{Q_n}{N}
+\end{equation*}
+Deze $u_n$ kunnen we gebruiken in onze evenwichtsvoorwaarde tussen prijs- en loonzetters. We bekomen dan:
+\begin{equation}
+  F(1-\frac{Q_n}{N}, z) = \frac{1}{1+\mu}
+\end{equation}
+
+
+\subsection{Het Aggregatief Aanbod}
+AA geeft de relatie weer tussen BBP en het algemeen prijspeil ($P$). Deze relatie volgt het loonvormingsproces (loon- en prijscurve). We veronderstelden dat $P = P^e$. Dit is geldig op MT, maar niet op KT. We laten deze aanname nu dus vallen. We kijken dus terug naar de evenwichtsvoorwaarde tussen prijs- en loonzetters, maar nu met $P \ne P^e$. We bekomen dan het volgende na herschrijven (zie slides):
+\begin{equation}
+  P = P^e(1 + \mu)(1-\alpha+\alpha \frac{Q}{N}+\beta z)
+\end{equation}
+Deze vergelijking stelt het aggregatief aanbod voor.
